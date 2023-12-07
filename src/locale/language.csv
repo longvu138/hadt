@@ -1,0 +1,12 @@
+key,en,vn,thailand,indonesia
+order_list.check_all,Select All,Chọn tất cả,เลือกทั้งหมด,Pilih Semua
+login.logout_btn,Logout,Đăng xuất,ออกจากระบบ,Keluar
+login.notPermission,Sorry. you don't have permission to access this page.,Xin lỗi. Bạn không có quyền truy cập trang này.,ขอโทษ คุณไม่ได้รับอนุญาตให้เข้าถึงหน้านี้,Maaf. Anda tidak dapat mengakses halaman ini.
+message.success,Successful,Thành công,สำเร็จ,Berhasil
+message.fail,Failure,Không thành công,ไม่สำเร็จ,Gagal
+message.loading,Loading,Đang tải,กำลังโหลด,Memuat
+error.error404,The page you are trying to access does not exist,Trang bạn truy cập không tồn tại,ไม่มีหน้าที่คุณเยี่ยมชม,Halaman yang Anda masuk tidak ada
+error.not_found,Oops! Page not found,Rất tiếc! Không tìm thấy trang,ขอโทษ! ไม่พบหน้านี้,Maaf! halaman tidak ditemukan
+setting.time_zone,Time zone,Thời gian theo khu vực,เวลาตามภูมิภาค,Waktu menurut wilayah
+setting.select_timezone,Select the time zone,Lựa chọn múi giờ,เลือกเขตเวลา,Pilih zona waktu
+sidebar.dashboard,Dashboard,Dashboard,หน้าแรก,Ruang halaman

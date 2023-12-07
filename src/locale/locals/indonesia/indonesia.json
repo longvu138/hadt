@@ -1,0 +1,25 @@
+{
+    "order_list": {
+        "check_all": "Pilih Semua"
+    },
+    "login": {
+        "logout_btn": "Keluar",
+        "notPermission": "Maaf. Anda tidak dapat mengakses halaman ini."
+    },
+    "message": {
+        "success": "Berhasil",
+        "fail": "Gagal",
+        "loading": "Memuat"
+    },
+    "error": {
+        "error404": "Halaman yang Anda masuk tidak ada",
+        "not_found": "Maaf! halaman tidak ditemukan"
+    },
+    "setting": {
+        "time_zone": "Waktu menurut wilayah",
+        "select_timezone": "Pilih zona waktu"
+    },
+    "sidebar": {
+        "dashboard": "Ruang halaman"
+    }
+}

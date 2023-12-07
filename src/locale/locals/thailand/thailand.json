@@ -1,0 +1,25 @@
+{
+    "order_list": {
+        "check_all": "เลือกทั้งหมด"
+    },
+    "login": {
+        "logout_btn": "ออกจากระบบ",
+        "notPermission": "ขอโทษ คุณไม่ได้รับอนุญาตให้เข้าถึงหน้านี้"
+    },
+    "message": {
+        "success": "สำเร็จ",
+        "fail": "ไม่สำเร็จ",
+        "loading": "กำลังโหลด"
+    },
+    "error": {
+        "error404": "ไม่มีหน้าที่คุณเยี่ยมชม",
+        "not_found": "ขอโทษ! ไม่พบหน้านี้"
+    },
+    "setting": {
+        "time_zone": "เวลาตามภูมิภาค",
+        "select_timezone": "เลือกเขตเวลา"
+    },
+    "sidebar": {
+        "dashboard": "หน้าแรก"
+    }
+}

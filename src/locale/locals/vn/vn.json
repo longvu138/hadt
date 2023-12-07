@@ -1,0 +1,25 @@
+{
+    "order_list": {
+        "check_all": "Chọn tất cả"
+    },
+    "login": {
+        "logout_btn": "Đăng xuất",
+        "notPermission": "Xin lỗi. Bạn không có quyền truy cập trang này."
+    },
+    "message": {
+        "success": "Thành công",
+        "fail": "Không thành công",
+        "loading": "Đang tải"
+    },
+    "error": {
+        "error404": "Trang bạn truy cập không tồn tại",
+        "not_found": "Rất tiếc! Không tìm thấy trang"
+    },
+    "setting": {
+        "time_zone": "Thời gian theo khu vực",
+        "select_timezone": "Lựa chọn múi giờ"
+    },
+    "sidebar": {
+        "dashboard": "Dashboard"
+    }
+}

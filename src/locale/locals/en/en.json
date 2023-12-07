@@ -1,0 +1,25 @@
+{
+    "order_list": {
+        "check_all": "Select All"
+    },
+    "login": {
+        "logout_btn": "Logout",
+        "notPermission": "Sorry. you don't have permission to access this page."
+    },
+    "message": {
+        "success": "Successful",
+        "fail": "Failure",
+        "loading": "Loading"
+    },
+    "error": {
+        "error404": "The page you are trying to access does not exist",
+        "not_found": "Oops! Page not found"
+    },
+    "setting": {
+        "time_zone": "Time zone",
+        "select_timezone": "Select the time zone"
+    },
+    "sidebar": {
+        "dashboard": "Dashboard"
+    }
+}
