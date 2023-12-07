@@ -10,8 +10,6 @@ import { useSearchParams } from "react-router-dom"
 import { localStore } from "@/util/LocalStore"
 import { SmileOutlined } from "@ant-design/icons"
 
-// import chucmung from '../../assets/img/a.gif'
-
 export const Dashboard = (props: any) => {
   const changePageTitle = usePageTitleStore((state) => state.changeTitle)
   const [loading, setLoading] = useState(false)
@@ -23,8 +21,6 @@ export const Dashboard = (props: any) => {
   useEffect(() => {
     changePageTitle(trans("HÀ ĐT"))
   }, [changePageTitle])
-
-  console.log("currentUser")
 
   const onChange = (key: string) => {
     setSearchParams({ tab: key })
@@ -46,7 +42,7 @@ export const Dashboard = (props: any) => {
     }
     const formData: any = new FormData()
     formData.append("file", file[0].originFileObj as any)
-    formData.append("type", "6")
+    formData.append("type", `${activeTab === 'tab2' ? '6' : '-1'}`)
     setLoading(true)
     const token = localStorage.getItem("loginSession")
     axios
@@ -124,8 +120,7 @@ export const Dashboard = (props: any) => {
     },
   ]
 
-  const infomationUser = currentUser?.documents[0]?.data
-  console.log("infomationUser", infomationUser)
+  const infomationUser = currentUser?.documents[currentUser?.documents?.length - 1]?.data
 
   return (
     <DefaultLayout
